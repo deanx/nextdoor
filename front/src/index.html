@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Design your new flow</title>
+    <link rel="stylesheet" href="vendor/gridster/jquery.gridster.min.css" />
+    <link rel="stylesheet" href="css/flow.css"/>
+</head>
+
+<body ng-app="flow">
+    <header ng-controller="flowDesigner">
+        <div id="navidation-header">
+            <button id="new-flow" ng-click="addFlow()">New Flow</button>
+            <button id="compile-flows">Compile Flows</button>
+        </div>
+    </header>
+    
+    <section id="pool">
+    
+    </section>
+    
+    <section id="toobox" class="flow-toolbox">
+        Toolbox
+    </section>
+    
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/gridster/jquery.gridster.min.js"></script>
+    <script src="vendor/angularjs/angular.min.js"></script>
+    <script src="js/flow.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+    </script>
+</body>
+
+</html>

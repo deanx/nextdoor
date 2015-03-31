@@ -1,0 +1,14 @@
+{
+	"name":"nextdoor",
+	"version":"0.1",
+	"dependencies": {
+		"jquery": "latest",
+		"angularjs":"latest"
+	},
+	"install":{
+		"path": {
+			"css":"src/css",
+			"js":"src/js"
+		}
+	}
+}

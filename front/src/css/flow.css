@@ -1,0 +1,21 @@
+.flow {
+    border:1px solid #999;
+    display:block;
+    background-color:#CCC;
+    width:1000px;
+    height:400px;
+    margin:8px;
+}
+
+#pool {
+    border:1px solid black;
+    float:left;
+}
+
+.flow-toolbox {
+    border:1px solid #999;
+    float:right;
+    display:inline-block;
+    width:300px;
+    height:600px
+}
